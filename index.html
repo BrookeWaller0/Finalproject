@@ -6,8 +6,16 @@
 
 	<link rel="stylesheet" type="text/css" href="stylesheet/stylesheet1.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	
-	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Bangers&display=swap" rel="stylesheet">
+	<meta charset="UTF-8"> 
+    <meta name="viewport" 
+          content="width=device-width,initial-scale=1.0"> 
+    <title>Responsive Form Card</title> 
+    <link rel="stylesheet" href= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> 
+    <link rel="stylesheet" href="index.css"> 
 
 	
       
@@ -47,16 +55,27 @@
 	  </div>
 </div>
 	</header>
-<h1> Hear The Roar </h1>
-	<div class="container">
+
+	<br> 
+	<br>
+	
+<div class="container">
   <img src="images/motorcyle.jpg" alt="motorcyle" style="width:100%">
-  
+  <div class="centered"><h3 class="bangers-regular"> Gear Up. Ride On. </h3> </div>
 </div>
+	<br> 
+<br>
+	<br>
+<h2 class="bangers-regular"> Please Read Some of Our Testimonials!</h2>
+	<br>
+	<br>
+	<br>
+	
 	<div class="div">
 	
 	<div class="card">
   <img src="images/card.png" alt="orangebox" style="width:100%">
-  <h2>Kellie Green </h2>
+  <h3>Kellie Green </h3>
   <p> Fast, Reliable, and Affordable! </p>
   <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
@@ -66,7 +85,7 @@
 </div>
 	<div class="card">
   <img src="images/card.png" alt="orangebox" style="width:100%">
-  <h2>Easton Allen </h2>
+  <h3>Easton Allen </h3>
   <p> They were able to get me back on the road fast! I would absoultely<br> recommend! </p>
   <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
@@ -76,8 +95,8 @@
 </div>
 		<div class="card">
   <img src="images/card.png" alt="orangebox" style="width:100%">
-  <h2> Caleb Mitchell </h2>
-  <p> I have a busy schedule and GearHead Garage was able to work with me! Finacially and schedule wise!  </p>
+  <h3> Caleb Mitchell </h3>
+  <p> I have a busy schedule and GearHead Garage was able to work with me!  </p>
   <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
@@ -85,5 +104,113 @@
 <span class="fa fa-star"></span>
 </div>
 	</div>
+	
+	
+
+<button onclick="topFunction()" id="myBtnn" title="Go to top">Top</button> 
+	
+	<h1 class="bangers-regular"> You Can Leave a Review Too!</h1>
+	<div class="form-box"> 
+		<div class="textup"> 
+			
+		</div> 
+		<form> 
+			<label for="uname"> 
+				<i class="fa fa-solid fa-user"></i> 
+				Name 
+			</label> 
+			<input type="text" id="uname"
+				name="uname" required> 
+
+			<label for="email"> 
+				<i class="fa fa-solid fa-envelope"></i> 
+				Email Address 
+			</label> 
+			<input type="email" id="email"
+				name="email" required> 
+
+			<label for="phone"> 
+				<i class="fa-solid fa-phone"></i> 
+				Phone No 
+			</label> 
+			<input type="tel" id="phone"
+				name="phone" required> 
+
+			<label> 
+				<i class="fa-solid fa-face-smile"></i> 
+				Do you satisfy with our service? 
+			</label> 
+			<div class="radio-group"> 
+				<input type="radio" id="yes"
+					name="satisfy" value="yes" checked> 
+				<label for="yes">Yes</label> 
+
+				<input type="radio" id="no"
+					name="satisfy" value="no"> 
+				<label for="no">No</label> 
+			</div> 
+
+			<label for="msg"> 
+				<i class="fa-solid fa-comments"
+				style="margin-right: 3px;"></i> 
+				Write your Suggestions: 
+			</label> 
+			<textarea id="msg" name="msg"
+					rows="4" cols="10" required> 
+			</textarea> 
+			<button type="submit"> 
+				Submit 
+			</button> 
+		</form> 
+	</div> 
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<script>
+let mybutton = document.getElementById("myBtnn");
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
 </body>
 </html>
