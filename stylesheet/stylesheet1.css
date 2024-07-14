@@ -1,0 +1,77 @@
+header {
+        background-color:maroon;
+        padding: 20px;
+        color: #fff;
+      }
+
+  
+
+.container {
+  position:relative;
+  margin: 20px;
+  width: auto;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+	
+		.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+     
+}
+
+body {background-color: lightgray}
+	
+		.containerr {
+  position:absolute;
+  width: 100%;
+  max-width: 400px; align-content: center; display: flex
+}
+
+.containerr img {
+  width: 100%;
+  height: auto;
+}
+
+
+	
+		h1 {text-align: center;font-size: 50px}
+	
+	.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+.checked {Color:Maroon}
+
+
+
+.div {display: flex;
+flex-direction: row;
+}
+@media(max-width:800px) {.div {flex-direction: row}
+}
