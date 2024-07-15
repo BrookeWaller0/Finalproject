@@ -45,7 +45,7 @@ header {
 body {background-color: lightgray}
 
 .div {display: flex;
-flex-direction: row;
+flex-direction: row; background-color: lightgrey 
 }
 @media(max-width:800px) {.div {flex-direction: column}
 }
