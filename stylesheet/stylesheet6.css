@@ -55,3 +55,16 @@ flex-direction: row;
 @media(max-width:800px) {.div {flex-direction: column}
 }
 
+
+
+
+.image-gallery {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      align-items: center;
+   }
+   .image-gallery img {
+      width: 25%;
+      height: 250px;
+   }
