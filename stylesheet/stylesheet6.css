@@ -68,3 +68,5 @@ flex-direction: row;
       width: 25%;
       height: 250px;
    }
+@media(max-width:800px) {.div {flex-direction: column}
+}
