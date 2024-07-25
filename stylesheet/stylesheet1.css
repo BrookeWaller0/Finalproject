@@ -258,3 +258,6 @@ h5{ font-size:20px; text-align:center}
 h1{font-size:50px;text-align:center}
 .img{align-content:center} 
 	.img2{width:100%}
+.review{display:flex} 
+@media(max-width:800px) {.review {flex-direction: column}
+}
